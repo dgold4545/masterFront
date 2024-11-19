@@ -1,0 +1,98 @@
+.logo-head {
+  min-width: 320px;
+  max-width: 360px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 233px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Impact', sans-serif;
+}
+.logo {
+  font-weight: bold;
+}
+
+.footer-logo {
+  color: #14c57c;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: column;
+  width: 87px;
+  height: 168px;
+  gap: 24px;
+  margin-top: 32px;
+}
+.link {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  padding-top: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.container-footer {
+  min-width: 320px;
+  max-width: 360px;
+  padding-top: 40px;
+}
+
+/*-----------------------------tablet--------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+  .container-footer {
+    min-width: 768px;
+  }
+  .social-list {
+    display: flex;
+    flex-direction: row;
+    width: 412px;
+    height: 24px;
+    gap: 40px;
+  }
+
+  .text {
+    text-align: unset;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logo {
+    font-size: 32px;
+  }
+
+  .footer-logo {
+    font-size: 32px;
+  }
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/*-------------------------------desk---------------------------------------------------*/
+@media only screen and (min-width: 1280px) {
+  .container-footer {
+    display: flex;
+    flex-direction: row;
+    min-width: 1280px;
+  }
+
+  .social-list {
+    margin-top: 0px;
+    margin-left: auto;
+  }
+  .text {
+    text-align: unset;
+  }
+}
